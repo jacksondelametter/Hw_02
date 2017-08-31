@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A4627211F58B3FE00B3F93D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4627201F58B3FE00B3F93D /* AppDelegate.swift */; };
+		7A4627231F58B3FE00B3F93D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4627221F58B3FE00B3F93D /* ViewController.swift */; };
+		7A4627261F58B3FE00B3F93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4627241F58B3FE00B3F93D /* Main.storyboard */; };
+		7A4627281F58B3FE00B3F93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4627271F58B3FE00B3F93D /* Assets.xcassets */; };
+		7A46272B1F58B3FE00B3F93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4627291F58B3FE00B3F93D /* LaunchScreen.storyboard */; };
+		7A4627361F58B3FE00B3F93D /* W02_Delametter_JacksonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4627351F58B3FE00B3F93D /* W02_Delametter_JacksonTests.swift */; };
+		7A4627411F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4627401F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A4627321F58B3FE00B3F93D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4627151F58B3FE00B3F93D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A46271C1F58B3FE00B3F93D;
+			remoteInfo = W02_Delametter_Jackson;
+		};
+		7A46273D1F58B3FE00B3F93D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4627151F58B3FE00B3F93D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A46271C1F58B3FE00B3F93D;
+			remoteInfo = W02_Delametter_Jackson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A46271D1F58B3FE00B3F93D /* W02_Delametter_Jackson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W02_Delametter_Jackson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4627201F58B3FE00B3F93D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A4627221F58B3FE00B3F93D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A4627251F58B3FE00B3F93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A4627271F58B3FE00B3F93D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A46272A1F58B3FE00B3F93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A46272C1F58B3FE00B3F93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4627311F58B3FE00B3F93D /* W02_Delametter_JacksonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W02_Delametter_JacksonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4627351F58B3FE00B3F93D /* W02_Delametter_JacksonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W02_Delametter_JacksonTests.swift; sourceTree = "<group>"; };
+		7A4627371F58B3FE00B3F93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A46273C1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W02_Delametter_JacksonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4627401F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W02_Delametter_JacksonUITests.swift; sourceTree = "<group>"; };
+		7A4627421F58B3FE00B3F93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A46271A1F58B3FE00B3F93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A46272E1F58B3FE00B3F93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4627391F58B3FE00B3F93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A4627141F58B3FE00B3F93D = {
+			isa = PBXGroup;
+			children = (
+				7A46271F1F58B3FE00B3F93D /* W02_Delametter_Jackson */,
+				7A4627341F58B3FE00B3F93D /* W02_Delametter_JacksonTests */,
+				7A46273F1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests */,
+				7A46271E1F58B3FE00B3F93D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A46271E1F58B3FE00B3F93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A46271D1F58B3FE00B3F93D /* W02_Delametter_Jackson.app */,
+				7A4627311F58B3FE00B3F93D /* W02_Delametter_JacksonTests.xctest */,
+				7A46273C1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A46271F1F58B3FE00B3F93D /* W02_Delametter_Jackson */ = {
+			isa = PBXGroup;
+			children = (
+				7A4627201F58B3FE00B3F93D /* AppDelegate.swift */,
+				7A4627221F58B3FE00B3F93D /* ViewController.swift */,
+				7A4627241F58B3FE00B3F93D /* Main.storyboard */,
+				7A4627271F58B3FE00B3F93D /* Assets.xcassets */,
+				7A4627291F58B3FE00B3F93D /* LaunchScreen.storyboard */,
+				7A46272C1F58B3FE00B3F93D /* Info.plist */,
+			);
+			path = W02_Delametter_Jackson;
+			sourceTree = "<group>";
+		};
+		7A4627341F58B3FE00B3F93D /* W02_Delametter_JacksonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4627351F58B3FE00B3F93D /* W02_Delametter_JacksonTests.swift */,
+				7A4627371F58B3FE00B3F93D /* Info.plist */,
+			);
+			path = W02_Delametter_JacksonTests;
+			sourceTree = "<group>";
+		};
+		7A46273F1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4627401F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.swift */,
+				7A4627421F58B3FE00B3F93D /* Info.plist */,
+			);
+			path = W02_Delametter_JacksonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A46271C1F58B3FE00B3F93D /* W02_Delametter_Jackson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4627451F58B3FF00B3F93D /* Build configuration list for PBXNativeTarget "W02_Delametter_Jackson" */;
+			buildPhases = (
+				7A4627191F58B3FE00B3F93D /* Sources */,
+				7A46271A1F58B3FE00B3F93D /* Frameworks */,
+				7A46271B1F58B3FE00B3F93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = W02_Delametter_Jackson;
+			productName = W02_Delametter_Jackson;
+			productReference = 7A46271D1F58B3FE00B3F93D /* W02_Delametter_Jackson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A4627301F58B3FE00B3F93D /* W02_Delametter_JacksonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4627481F58B3FF00B3F93D /* Build configuration list for PBXNativeTarget "W02_Delametter_JacksonTests" */;
+			buildPhases = (
+				7A46272D1F58B3FE00B3F93D /* Sources */,
+				7A46272E1F58B3FE00B3F93D /* Frameworks */,
+				7A46272F1F58B3FE00B3F93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4627331F58B3FE00B3F93D /* PBXTargetDependency */,
+			);
+			name = W02_Delametter_JacksonTests;
+			productName = W02_Delametter_JacksonTests;
+			productReference = 7A4627311F58B3FE00B3F93D /* W02_Delametter_JacksonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A46273B1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A46274B1F58B3FF00B3F93D /* Build configuration list for PBXNativeTarget "W02_Delametter_JacksonUITests" */;
+			buildPhases = (
+				7A4627381F58B3FE00B3F93D /* Sources */,
+				7A4627391F58B3FE00B3F93D /* Frameworks */,
+				7A46273A1F58B3FE00B3F93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A46273E1F58B3FE00B3F93D /* PBXTargetDependency */,
+			);
+			name = W02_Delametter_JacksonUITests;
+			productName = W02_Delametter_JacksonUITests;
+			productReference = 7A46273C1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A4627151F58B3FE00B3F93D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jackson Delametter";
+				TargetAttributes = {
+					7A46271C1F58B3FE00B3F93D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					7A4627301F58B3FE00B3F93D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A46271C1F58B3FE00B3F93D;
+					};
+					7A46273B1F58B3FE00B3F93D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A46271C1F58B3FE00B3F93D;
+					};
+				};
+			};
+			buildConfigurationList = 7A4627181F58B3FE00B3F93D /* Build configuration list for PBXProject "W02_Delametter_Jackson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A4627141F58B3FE00B3F93D;
+			productRefGroup = 7A46271E1F58B3FE00B3F93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A46271C1F58B3FE00B3F93D /* W02_Delametter_Jackson */,
+				7A4627301F58B3FE00B3F93D /* W02_Delametter_JacksonTests */,
+				7A46273B1F58B3FE00B3F93D /* W02_Delametter_JacksonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A46271B1F58B3FE00B3F93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A46272B1F58B3FE00B3F93D /* LaunchScreen.storyboard in Resources */,
+				7A4627281F58B3FE00B3F93D /* Assets.xcassets in Resources */,
+				7A4627261F58B3FE00B3F93D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A46272F1F58B3FE00B3F93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A46273A1F58B3FE00B3F93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A4627191F58B3FE00B3F93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4627231F58B3FE00B3F93D /* ViewController.swift in Sources */,
+				7A4627211F58B3FE00B3F93D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A46272D1F58B3FE00B3F93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4627361F58B3FE00B3F93D /* W02_Delametter_JacksonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4627381F58B3FE00B3F93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4627411F58B3FE00B3F93D /* W02_Delametter_JacksonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A4627331F58B3FE00B3F93D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A46271C1F58B3FE00B3F93D /* W02_Delametter_Jackson */;
+			targetProxy = 7A4627321F58B3FE00B3F93D /* PBXContainerItemProxy */;
+		};
+		7A46273E1F58B3FE00B3F93D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A46271C1F58B3FE00B3F93D /* W02_Delametter_Jackson */;
+			targetProxy = 7A46273D1F58B3FE00B3F93D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A4627241F58B3FE00B3F93D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4627251F58B3FE00B3F93D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A4627291F58B3FE00B3F93D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A46272A1F58B3FE00B3F93D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A4627431F58B3FE00B3F93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A4627441F58B3FE00B3F93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A4627461F58B3FF00B3F93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = W02_Delametter_Jackson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackson.W02-Delametter-Jackson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A4627471F58B3FF00B3F93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = W02_Delametter_Jackson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackson.W02-Delametter-Jackson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A4627491F58B3FF00B3F93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = W02_Delametter_JacksonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackson.W02-Delametter-JacksonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W02_Delametter_Jackson.app/W02_Delametter_Jackson";
+			};
+			name = Debug;
+		};
+		7A46274A1F58B3FF00B3F93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = W02_Delametter_JacksonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackson.W02-Delametter-JacksonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W02_Delametter_Jackson.app/W02_Delametter_Jackson";
+			};
+			name = Release;
+		};
+		7A46274C1F58B3FF00B3F93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = W02_Delametter_JacksonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackson.W02-Delametter-JacksonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = W02_Delametter_Jackson;
+			};
+			name = Debug;
+		};
+		7A46274D1F58B3FF00B3F93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = W02_Delametter_JacksonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackson.W02-Delametter-JacksonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = W02_Delametter_Jackson;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A4627181F58B3FE00B3F93D /* Build configuration list for PBXProject "W02_Delametter_Jackson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4627431F58B3FE00B3F93D /* Debug */,
+				7A4627441F58B3FE00B3F93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4627451F58B3FF00B3F93D /* Build configuration list for PBXNativeTarget "W02_Delametter_Jackson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4627461F58B3FF00B3F93D /* Debug */,
+				7A4627471F58B3FF00B3F93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A4627481F58B3FF00B3F93D /* Build configuration list for PBXNativeTarget "W02_Delametter_JacksonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4627491F58B3FF00B3F93D /* Debug */,
+				7A46274A1F58B3FF00B3F93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A46274B1F58B3FF00B3F93D /* Build configuration list for PBXNativeTarget "W02_Delametter_JacksonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A46274C1F58B3FF00B3F93D /* Debug */,
+				7A46274D1F58B3FF00B3F93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A4627151F58B3FE00B3F93D /* Project object */;
+}
